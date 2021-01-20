@@ -1,7 +1,27 @@
-titanic
+# Pluralsight Course - Doing Data Science with Python - Titanic Data Science Challenge
 ==============================
 
-Titanic data science challenge
+How to work on an end-to-end data science project including processing data, building & evaluating machine learning model, and exposing the model as an API in a standardized approach using various Python libraries.
+# Project Cycle Overview
+![](./img/projectCycleOverview.png)
+
+# Extract
+
+Extracting Titanic Disaster Data From Kaggle
+Tested on:
+- Python 3.7
+- kaggle==1.5.6
+
+Setup Kaggle API token
+
+Steps:
+- Go to the Account Tab ( https://www.kaggle.com/<username>/account ) and click Create API Token. A file named kaggle.json will be downloaded.
+- place kaggle.json inside the root level titanic folder.
+- make sure kaggle.json is an entry in the .gitignore file so that you accidently share the credentials
+- install kaggle package using command: ``` pip install kaggle```
+
+# Optimize
+![](./img/organize.png)
 
 Project Organization
 ------------
